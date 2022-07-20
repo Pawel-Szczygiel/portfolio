@@ -1,0 +1,49 @@
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.top-tags {
+  top: 35px;
+  bottom: auto;
+}
+
+.bottom-tags {
+  bottom: 35px;
+}
+
+.tags {
+  color: #ffd700;
+  opacity: 0.6;
+  position: absolute;
+  left: 120px;
+  font-size: 18px;
+  font-family: "La Belle Aurore";
+}
+
+.bottom-tags-html,
+.top-tags-html {
+  margin-left: -20px;
+}
+
+.top-tags-html {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  will-change: contents;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: fadeIn 1s 1s forwards;
+          animation: fadeIn 1s 1s forwards;
+}/*# sourceMappingURL=layout.css.map */
